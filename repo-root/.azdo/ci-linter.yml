@@ -1,0 +1,20 @@
+trigger:
+  batch: false
+  branches:
+    include:
+      - main
+      - develop
+      - release/*
+      - feature/*
+
+name: Linter
+
+jobs:
+  - job: lint
+    displayName: Linting
+    pool:
+      vmImage: "ubuntu-20.04"
+
+    steps:
+      - template: templates\install-npm.yml
+      - template: templates\linter.yml

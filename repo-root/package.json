@@ -1,0 +1,14 @@
+{
+    "scripts": {
+        "markdownlint": "find . -path \"./node_modules\" -prune -o -name \"*.md\" -print | xargs -L1 markdownlint --config .azdo/.config/.markdownlint.json",
+        "inclusivelint": "find . -path \"./node_modules\" -prune -o -name \"*.md\" -print | xargs -L1 inclusivelint -p",
+        "markdown-link-check": "find . -path \"./node_modules\" -prune -o -name \"*.md\" -print | xargs -L1 markdown-link-check --config .azdo/.config/.markdown-link-check-config.json",
+        "write-good": "find . -path \"./node_modules\" -prune -o -name \"*.md\" -print | xargs -L1 npx write-good --parse --no-passive --no-tooWordy --no-adverb --no-weasel"
+    },
+    "dependencies": {
+        "@inclusivelint/inclusivelint": "0.0.18",
+        "markdown-link-check": "3.8.7",
+        "markdownlint-cli": "0.23.2",
+        "write-good": "^1.0.8"
+    }
+}

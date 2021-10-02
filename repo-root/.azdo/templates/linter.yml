@@ -1,0 +1,25 @@
+  steps:
+
+  - task: Npm@1
+    displayName: "Run Markdown Lint"
+    inputs:
+      command: custom
+      customCommand: "run markdownlint"
+
+  - task: Npm@1
+    displayName: "Run Inclusive Lint"
+    inputs:
+      command: custom
+      customCommand: "run inclusivelint"
+
+  - task: Npm@1
+    displayName: "Run Write-good"
+    inputs:
+      command: custom
+      customCommand: "run write-good"
+
+  - task: Npm@1
+    displayName: "Run Link Checker"
+    inputs:
+      command: custom
+      customCommand: "run markdown-link-check"

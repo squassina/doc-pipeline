@@ -1,0 +1,7 @@
+{
+  "aliveStatusCodes": [200, 203, 206],
+  "ignorePatterns": [
+        {"pattern": "^https://website1.com/"},
+        {"pattern": "^https://website2.com"}
+  ]
+}
