@@ -33,3 +33,7 @@ To start using this pipeline:
         - check `package.json` so you don't overwrite one you already have in the process. Also update the file if you changed
           the name of the `.azdo` folder.
 1. Create the pipeline in Azure DevOps or GitHub
+
+## References
+
+[Markdown Code Reviews in the Code With Engineering Playbook](https://microsoft.github.io/code-with-engineering-playbook/code-reviews/recipes/markdown/#code-review-checklist)
