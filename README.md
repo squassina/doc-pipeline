@@ -7,7 +7,7 @@ Most projects start with spikes, where developers and analysts produce lots of d
 But sometimes, these documents don't have a standard and each one write them accordingly with their preference. Add to that
 the time a reviewer will spend confirming grammar, searching for typos or non-inclusive language.
 
-This pipeline address that!
+This pipeline addresses that!
 
 ## The Pipeline
 
