@@ -1,4 +1,4 @@
-# Documentation CI Pipeline
+# CI Pipeline for better documentation
 
 ## Introduction
 
