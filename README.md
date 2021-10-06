@@ -14,7 +14,6 @@ This pipeline address that!
 The pipeline uses the following `npm` modules:
 
 - [markdownlint](https://github.com/DavidAnson/markdownlint): add standardization using [rules](https://github.com/DavidAnson/markdownlint#rules--aliases)
-- [inclusivelint](https://github.com/inclusivelint/inclusivelint-lib): check for inclusiveness
 - [markdown-link-check](https://github.com/tcort/markdown-link-check): check the links in the documentation and report broken
 ones
 - [write-good](https://github.com/btford/write-good): linter for English prose
